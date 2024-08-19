@@ -48,6 +48,7 @@ class Server:
         assert index < len(self.__dataset)
         assert isinstance(index, int)
         assert isinstance(page_size, int)
+        assert index >= 0
         assert page_size > 0
 
         data = []
