@@ -1,0 +1,18 @@
+
+
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+Mon Aug 19 2024 10:49:23:821 GMT+0100 (WAT) -- [ERROR] Another instance of BrowserStack Binary is running with on your system with PID: 741074
+Mon Aug 19 2024 10:49:23:826 GMT+0100 (WAT) -- [ERROR] Please close it and try again
+Mon Aug 19 2024 10:49:23:854 GMT+0100 (WAT) -- [ERROR] SYS_CONFLICT:1001 https://browserstack.com/docs/local-testing/binary/errors/1001
+Mon Aug 19 2024 10:49:23:855 GMT+0100 (WAT) -- You can learn more about BrowserStack Binary flags by running ./BrowserStackLocal --help
+Mon Aug 19 2024 10:49:31:760 GMT+0100 (WAT) -- Starting configuration console on http://localhost:45454
+Mon Aug 19 2024 10:49:35:599 GMT+0100 (WAT) -- [INFO] Started the BrowserStack Binary server on 45691, PID: 741074
+Mon Aug 19 2024 10:49:41:957 GMT+0100 (WAT) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Mon Aug 19 2024 10:50:43:262 GMT+0100 (WAT) -- Press Ctrl-C to exit
+
+
+Mon Aug 19 2024 10:59:51:945 GMT+0100 (WAT) -- Press Ctrl-C to exit
+
+
