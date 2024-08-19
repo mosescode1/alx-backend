@@ -43,13 +43,13 @@ class Server:
                         page_size: int = 10) -> Dict:
         """
         Returns a dictionary with the following key-value pairs:
-        - 'index': the current start index of the return page
-        - 'next_index': the start index of the next page
-        - 'page_size': the size of the current page
-        - 'data': the actual page data
         """
         indexed_data = self.indexed_dataset()
         assert index < len(self.__dataset)
+        assert isinstance(index, int)
+        assert isinstance(page_size, int)
+        assert page_size > 0
+
         data = []
         next_index = index
 
