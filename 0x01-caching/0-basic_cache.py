@@ -37,7 +37,7 @@ class BasicCache(BaseCaching):
                 """
         if key is None:
             return
-        value = self.cache_data.get(key)
+        value = self.cache_data.get(key, None)
         if value is None:
             return
 
