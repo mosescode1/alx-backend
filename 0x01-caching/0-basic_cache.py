@@ -24,7 +24,7 @@ class BasicCache(BaseCaching):
                 argument -- description
                 Return: return_description
                 """
-        if key == None or items == None:
+        if key is None or items is None:
             return
         self.cache_data[key] = items
 
@@ -35,7 +35,7 @@ class BasicCache(BaseCaching):
                 argument -- key
                 Return: return A single cache
                 """
-        if key == None:
+        if key is None:
             return
         value = self.cache_data.get(key)
         if value is None:
