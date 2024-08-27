@@ -29,7 +29,7 @@ def get_locale():
 @app.route('/', methods=["GET"])
 def home():
     """Home route serving the default home page"""
-    flash(_("Hello world"))  # Translatable message
+    # flash(_("Hello world"))  # Translatable message
     return render_template("3-index.html")
 
 
