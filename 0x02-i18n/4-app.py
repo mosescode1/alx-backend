@@ -35,7 +35,7 @@ babel.init_app(app, locale_selector=get_locale)
 @app.route('/', methods=["GET"])
 def home():
     """Home route serving the default home page"""
-    flash(_("Hello world"))  # Translatable message
+    # flash(_("Hello world"))  # Translatable message
     return render_template("4-index.html")
 
 
