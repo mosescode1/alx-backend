@@ -11,3 +11,24 @@ Tue Aug 27 2024 14:59:20:554 GMT+0100 (WAT) -- [SUCCESS] You can now access your
 Tue Aug 27 2024 14:59:49:564 GMT+0100 (WAT) -- Press Ctrl-C to exit
 
 
+Tue Aug 27 2024 16:50:03:9 GMT+0100 (WAT) -- Press Ctrl-C to exit
+
+
+Tue Aug 27 2024 16:50:13:35 GMT+0100 (WAT) -- Received runtime exception: TypeError: Cannot set property 'onmessage' of null
+    at repeaterConnection.onopen (bslocal.js:1:140383)
+    at ve.<anonymous> (bslocal.js:1:66239)
+    at x.o (bslocal.js:1:13853000)
+    at x.emit (events.js:198:13)
+    at x.S (bslocal.js:1:13858993)
+    at ClientRequest.e (bslocal.js:1:13857787)
+    at Object.onceWrapper (events.js:286:20)
+    at ClientRequest.emit (events.js:198:13)
+    at TLSSocket.socketOnData (_http_client.js:484:11)
+    at TLSSocket.emit (events.js:198:13)
+Tue Aug 27 2024 16:50:13:35 GMT+0100 (WAT) -- Exiting.
+Tue Aug 27 2024 16:50:13:78 GMT+0100 (WAT) -- Press Ctrl-C to exit
+
+
+Tue Aug 27 2024 16:50:13:134 GMT+0100 (WAT) -- Press Ctrl-C to exit
+
+
