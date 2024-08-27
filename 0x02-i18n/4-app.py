@@ -18,9 +18,15 @@ app.config.from_object(Config)
 babel = Babel(app)
 
 
-def get_locale():
-    """Gets the best match language"""
-    return request.accept_languages.best_match(app.config["LANGUAGES"])
+# @babel.localeselector
+def get_locale() -> str:
+    """
+    Gets locale from request object
+    """
+    locale = request.args.get('locale', '').strip()
+    if locale and locale in Config.LANGUAGES:
+        return locale
+    return request.accept_languages.best_match(app.config['LANGUAGES'])
 
 
 babel.init_app(app, locale_selector=get_locale)
