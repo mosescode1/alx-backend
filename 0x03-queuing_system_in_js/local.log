@@ -11,3 +11,9 @@ Tue Sep 24 2024 15:45:39:269 GMT+0100 (WAT) -- [SUCCESS] You can now access your
 Tue Sep 24 2024 15:45:40:50 GMT+0100 (WAT) -- Press Ctrl-C to exit
 
 
+Tue Sep 24 2024 17:05:14:846 GMT+0100 (WAT) -- Received runtime exception: Error: getaddrinfo ENOTFOUND repeater-local-007-dcp-euw1a-prod.browserstack.com repeater-local-007-dcp-euw1a-prod.browserstack.com:80
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+Tue Sep 24 2024 17:05:14:846 GMT+0100 (WAT) -- Exiting.
+Tue Sep 24 2024 17:05:14:935 GMT+0100 (WAT) -- Received runtime exception: Error: getaddrinfo ENOTFOUND repeater-local-006-dcp-euw1a-prod.browserstack.com repeater-local-006-dcp-euw1a-prod.browserstack.com:443
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+Tue Sep 24 2024 17:05:14:936 GMT+0100 (WAT) -- Exiting.
